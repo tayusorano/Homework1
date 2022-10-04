@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equip="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="assets/js/script.js"></script>
+    <title>Droid</title>
+</head>
+
+<body>
+ <section class="panel" id="first-page">
+
+    <header class="d-flex justify-content-between align-items-end container">
+        <div class="logo mb-4"><img src="assets/img/icons/logo.png" alt="logo">
+        </div>
+        <div class="justify-content-center mb-5">
+            <ul class="nav">
+            <li class="text-upper"><a onclick="smoothScroll('#about')" href="#">О нас</a></li>
+            <li class="text-upper"><a onclick="smoothScroll('#price')" href="#">Цены</a></li>
+            <li class="text-upper"><a onclick="smoothScroll('#sub')" href="#">Контакты</a></li>
+            <li class="text-upper"><a onclick="smoothScroll('#vacancy')" href="#">Вакансии</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <div class="item d-flex justify-content-center align-items-center mt-4 mb-4">
+                <a href="whatsapp://send?phone=7903950645" target="_blank">
+                    <img src="assets/img/icons/whatsapp.png" alt="logo"></a>
+                <a href="https://vk.com/droid" target="_blank">
+                    <img src="assets/img/icons/vk.png" alt="logo"></a></div>
+
+        <div class="item d-flex justify-content-center align-items-center mb-2">
+            <p class="text-upper">Тел.: 8(3822)94-06-06</p>
+        </div>
+        <div class="item d-flex justify-content-center align-items-center mb-2">
+            <p class="text-upper">Режим работы: Ежедневно, 10:00 — 20:00</p>
+        </div>
+        <div class="item d-flex justify-content-center align-items-center mb-2">
+            <p class="text-upper">Email: service@2droida.ru</p>
+        </div>
+
+    </div>
+
+    </header>
+
+    <div class="container d-flex flex-column align-items-start justify-content-center content" style="margin-top: 75px;">
+        <h1 class="site-name text-upper" style="margin-top: 100px;">Droid</h1>
+    </div>
+ </section>
+
+ <section class="panel" id="about">
+     <div class="container d-flex h-100 flex-column align-items-center justify-content-between" style="margin-top:
+     200px; margin-bottom: 200px">
+         <h1 class="section-title text-upper mr-5" style="color: #fff;">О нас</h1>
+             <div class="content w-150 d-flex" style="height: 50vh;">
+                 <div class="item d-flex justify-content-between align-items-center flex-row-reverse mt-5">
+                     <img class="about-img" src="assets/img/about.jpg" alt="about">
+                     <div class="p-5">
+                         <p class="text-upper text-left mt-5" style="color: #fff;">Сервисный центр DROID выполняет
+                             срочный,
+                             качественный и недорогой
+                             ремонт телефонов. Самые распространённые виды ремонта -это замена дисплея, антикоррозийная чистка при попадании влаги, замена аккумулятора и прошивка телефонов.
+                         </p>
+                         <p class="text-upper text-left mt-5" style="color: #fff;">Мы используем только качественные
+                             запасные части и
+                             строго соблюдаем
+                             технологию проведения ремонта. Мы предоставляем гарантию на выполненные работы и замененные комплектующие.
+                         </p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+<section class="panel" id="advantages">
+    <h1 class="section-title text-upper">Наши преимущества</h1>
+    <div class="container content d-flex justify-content-center align-items-start mt-5">
+        <div class="content d-flex justify-content-around align-items-center" style="height: 250px;"
+             id="advantages-">
+            <div class="item">
+                <img src="assets/img/advantages/time.png" alt="advantages">
+                <p>Минимальные сроки ремонта</p>
+            </div>
+            <div class="item">
+                <img src="assets/img/advantages/diagnostic.png" alt="advantages">
+                <p>Бесплатная диагностика</p>
+            </div>
+            <div class="item">
+                <img src="assets/img/advantages/garanty.png" alt="advantages">
+                <p>Ответственность за результат</p>
+            </div>
+            <div class="item">
+                <img src="assets/img/advantages/information.png" alt="advantages">
+                <p>Информирование</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <section class="panel" id="firms">
+
+     <h1 class="section-title text-upper">Производители</h1>
+
+     <div class="container content d-flex flex-column align-items-center mt-5">
+
+         <div class="content d-flex align-items-end justify-content-center" style="height: 250px; width: 200px;"
+              id="brand-container">
+             <input type="radio" name="brands-trigger" id="honor">
+             <label for="honor" class="firms-label" id="honor-tab"></label>
+             <div class="item" id="honor-container">
+             <img src="assets/img/firms/honor.png">
+             </div>
+
+             <input type="radio" name="brands-trigger" id="huawei" checked>
+             <label for="huawei" class="firms-label" id="huawei-tab"></label>
+             <div class="item" id="huawei-container">
+                 <img src="assets/img/firms/huawei.png">
+             </div>
+
+             <input type="radio" name="brands-trigger" id="meizu">
+             <label for="meizu" class="firms-label" id="meizu-tab"></label>
+             <div class="item" id="meizu-container">
+                 <img src="assets/img/firms/meizu.png">
+         </div>
+
+             <input type="radio" name="brands-trigger" id="mi">
+             <label for="mi" class="firms-label" id="mi-tab"></label>
+             <div class="item" id="mi-container">
+                 <img src="assets/img/firms/mi.png">
+         </div>
+
+             <input type="radio" name="brands-trigger" id="oneplus">
+             <label for="oneplus" class="firms-label" id="oneplus-tab"></label>
+             <div class="item" id="oneplus-container">
+                 <img src="assets/img/firms/oneplus.png">
+         </div>
+         </div>
+
+     </div>
+
+ </section>
+
+ <section class="panel" id="useful-info">
+
+     <h1 class="section-title text-upper">Неисправности</h1>
+
+     <div class=" d-flex justify-content-center align-items-center flex-column u-content">
+         <div class="content w-75 d-flex" style="height: 50vh;">
+         <div class="item d-flex justify-content-between align-items-center">
+             <img class="item-img" src="assets/img/useful/1.png" alt="image">
+             <div class="p-5">
+             <h1 class="title text-upper">Замена дисплейного модуля</h1>
+                 <p>Разбит дисплей, не работает сенсор, не показывает экран <br>
+                     от 1000р </p>
+             </div>
+         </div>
+         </div>
+
+         <div class="content w-75 d-flex" style="height: 50vh;">
+             <div class="item d-flex justify-content-between align-items-center flex-row-reverse">
+                 <img class="item-img" src="assets/img/useful/2.png" alt="image">
+                 <div class="p-5">
+                     <h1 class="title text-upper">Замена аккумулятора</h1>
+                     <p>Не держит заряд, выключается на холоде или вздулся аккумулятор. А так же, если попала влага
+                         или был сильный удар. <br>
+                         от 1000р
+                     </p>
+                 </div>
+             </div>
+         </div>
+         <div class="content w-75 d-flex" style="height: 50vh;">
+             <div class="item d-flex justify-content-between align-items-center">
+                 <img class="item-img" src="assets/img/useful/3.png" alt="image">
+                 <div class="p-5">
+                     <h1 class="title text-upper">Обновление программного обеспечения</h1>
+                     <p>Ошибки приложений Android, не работает Google Play, не открывается галерея, Не видит сеть,
+                         нет русского языка. <br>
+                         от 300р </p>
+                 </div>
+             </div>
+         </div>
+         <div class="content w-75 d-flex" style="height: 50vh;">
+             <div class="item d-flex justify-content-between align-items-center flex-row-reverse">
+                 <img class="item-img" src="assets/img/useful/4.png" alt="image">
+                 <div class="p-5">
+                     <h1 class="title text-upper">Чистка от коррозии после попадания жидкости</h1>
+                     <p>Залит телефон, внутри влага, утопили. <br>
+                         от 1000р
+                     </p>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+<section class="panel" id="work">
+    <h1 class="section-title text-upper mb-5">Примеры работ</h1>
+ <div class="container">
+     <div class="mySlides">
+         <div class="numbertext">1 / 6</div>
+         <img src="assets/img/before/1.jpg" style="width:100%">
+     </div>
+
+     <div class="mySlides">
+         <div class="numbertext">2 / 6</div>
+         <img src="assets/img/before/2.jpg" style="width:100%">
+     </div>
+
+     <div class="mySlides">
+         <div class="numbertext">3 / 6</div>
+         <img src="assets/img/before/3.jpg" style="width:100%">
+     </div>
+
+     <div class="mySlides">
+         <div class="numbertext">4 / 6</div>
+         <img src="assets/img/before/4.jpg" style="width:100%">
+     </div>
+
+     <div class="mySlides">
+         <div class="numbertext">5 / 6</div>
+         <img src="assets/img/before/5.jpg" style="width:100%">
+     </div>
+
+     <div class="mySlides">
+         <div class="numbertext">6 / 6</div>
+         <img src="assets/img/before/6.jpg" style="width:100%">
+     </div>
+
+     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+     <div class="caption-container">
+         <p id="caption"></p>
+     </div>
+
+     <div class="row">
+         <div class="column">
+             <img class="demo cursor" src="assets/img/before/11.jpg" style="width:100%" onclick="currentSlide(1)"
+                  alt="До-После">
+         </div>
+         <div class="column">
+             <img class="demo cursor" src="assets/img/before/22.jpg" style="width:100%" onclick="currentSlide(2)"
+                  alt="До-После">
+         </div>
+         <div class="column">
+             <img class="demo cursor" src="assets/img/before/33.jpg" style="width:100%" onclick="currentSlide(3)"
+                  alt="До-После">
+         </div>
+         <div class="column">
+             <img class="demo cursor" src="assets/img/before/44.jpg" style="width:100%" onclick="currentSlide(4)"
+                  alt="До-После">
+         </div>
+         <div class="column">
+             <img class="demo cursor" src="assets/img/before/55.jpg" style="width:100%" onclick="currentSlide(5)"
+                  alt="До-После">
+         </div>
+         <div class="column">
+             <img class="demo cursor" src="assets/img/before/66.jpg" style="width:100%" onclick="currentSlide(6)"
+                  alt="До-После">
+         </div>
+     </div>
+ </div>
+</section>
+
+ <section class="panel" id="price">
+     <h1 class="section-title text-upper">Прайс-лист</h1>
+        <input type="radio" id="outside" name="categories" value="outside">
+        <input type="radio" id="inside" checked name="categories" value="inside">
+        <input type="radio" id="soft" name="categories" value="soft">
+        <div class="categories">
+            <form id="price_filter">
+            <ul id="categories-container">
+                <li>
+                    <label for="outside" id="outside-tab" class="text-upper">Внешние деффекты</label>
+                </li>
+                <li>
+                    <label	for="inside" id="inside-tab" class="text-upper">Внутренние деффекты</label>
+                </li>
+                <li>
+                    <label for="soft" id="soft-tab" class="text-upper">Програмное обеспечение</label>
+                </li>
+            </ul>
+        </form>
+    </div>
+     <div class="panels">
+         <div id="outside-container" class=" justify-content-between flex-wrap price-container">
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/1.png" alt="price1">
+                 </div>
+             </div>
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/2.png" alt="price2">
+                 </div>
+             </div>
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/3.png" alt="price3">
+                 </div>
+             </div>
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/4.png" alt="price4">
+                 </div>
+             </div>
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/5.png" alt="price5">
+                 </div>
+             </div>
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/6.png" alt="price6">
+                 </div>
+             </div>
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/7.png" alt="price7">
+                 </div>
+             </div>
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/8.png" alt="price8">
+                 </div>
+             </div>
+         </div>
+         <div id="inside-container" class=" justify-content-between flex-wrap price-container">
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/9.png" alt="price9">
+                 </div>
+             </div>
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/10.png" alt="price10">
+                 </div>
+             </div>
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/11.png" alt="price11">
+                 </div>
+             </div>
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/12.png" alt="price12">
+                 </div>
+             </div>
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/13.png" alt="price13">
+                 </div>
+             </div>
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/14.png" alt="price14">
+                 </div>
+             </div>
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/15.png" alt="price15">
+                 </div>
+             </div>
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/16.png" alt="price16">
+                 </div>
+             </div>
+         </div>
+         <div id="soft-container" class=" justify-content-between flex-wrap price-container">
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/17.png" alt="price17">
+                 </div>
+             </div>
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/18.png" alt="price18">
+                 </div>
+             </div>
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/19.png" alt="price19">
+                 </div>
+             </div>
+             <div class="c-card">
+                 <div class="card-body">
+                     <img src="assets/img/price/20.png" alt="price20">
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+<section class="panel" id="review">
+    <h1 class="section-title text-upper mt-5">Отзывы</h1>
+
+    <div class="container content d-flex flex-column align-items-center">
+        <div class="content d-flex align-items-end justify-content-center" style="height: 550px; width: 600px;"
+             id="review-container">
+            <input type="radio" name="review-trigger" id="review1" checked>
+            <label for="review1" class="review-label" id="review1-tab"></label>
+            <div class="item" id="review1-container">
+                <p class="text-upper text-center mb-1" style="font-size: 30px; color: #9fcdff">01.10.2019</p>
+                <p class="text-upper text-center mb-2" style="font-size: 30px; color: #9fcdff">Георгий Леонидович</p>
+                <p>Замена АКБ Sony Xperia Z2</p>
+                <p>24 сентября 2019 г обратился для замены АКБ в своем телефоне.НН Ленина 127. Мастер Сазанов А.Е. все адекватно обьяснил,показал и рассказал как будет проходить ремонт телефона.Назвал стоимость за батарею и замену АКБ. Назвал сроки.Все сделано качественно и в срок. Приятно с Вами работать. Спасибо.
+                </p>
+            </div>
+
+            <input type="radio" name="review-trigger" id="review2">
+            <label for="review2" class="review-label" id="review2-tab"></label>
+            <div class="item" id="review2-container">
+                <p class="text-upper text-center mb-1" style="font-size: 30px; color: #9fcdff">28.03.2019</p>
+                <p class="text-upper text-center mb-2" style="font-size: 30px; color: #9fcdff">Екатерина</p>
+                <p>iPhone 6s</p>
+                <p>Очень быстрый и качественный сервис за приемлемую плату.Телефон починили за несколько часов,все отлично работает.
+                </p>
+            </div>
+
+            <input type="radio" name="review-trigger" id="review3">
+            <label for="review3" class="review-label" id="review3-tab"></label>
+            <div class="item" id="review3-container">
+                <p class="text-upper text-center mb-1" style="font-size: 30px; color: #9fcdff">11.01.2019</p>
+                <p class="text-upper text-center mb-2" style="font-size: 30px; color: #9fcdff">Ирина</p>
+                <p>Ремонт телефона после падения в воду</p>
+                <p>Большое спасибо Андрею Сазанову и Алексею Овчинникову за то, что взялись за ремонт телефона после воды. Телефон работает, проблем нет.
+                </p>
+            </div>
+
+            <input type="radio" name="review-trigger" id="review4">
+            <label for="review4" class="review-label" id="review4-tab"></label>
+            <div class="item" id="review4-container">
+                <p class="text-upper text-center mb-1" style="font-size: 30px; color: #9fcdff">29.10.2018</p>
+                <p class="text-upper text-center mb-2" style="font-size: 30px; color: #9fcdff">Андрей</p>
+                <p>Самый лучший сервис</p>
+                <p>Я обращался в 4 сервиса, чтобы починили мои беспроводные наушники (X3T) после замыкания. В одном сервисе сказали мне, что починка будет стоить дороже новых наушников, другие сказали, что их чинить нет смысла. А в сервисе "Мастер GSM" всё просто и без накладок. Подошли к вопросу оригинально и починили. Всё работает! Припаяли проводок и отправили домой. За такую простоту даже денег не взяли. Большое Спасибо!!!
+                </p>
+            </div>
+
+            <input type="radio" name="review-trigger" id="review5">
+            <label for="review5" class="review-label" id="review5-tab"></label>
+            <div class="item" id="review5-container">
+                <p class="text-upper text-center mb-1" style="font-size: 30px; color: #9fcdff">16.06.2018</p>
+                <p class="text-upper text-center mb-2" style="font-size: 30px; color: #9fcdff">Руслан</p>
+                <p>Ремонт iPhone SE</p>
+                <p>Добрый день! Хочу выразить огромную благодарность сервисному центру за ремонт телефона. Приняли аппарат быстро и без проблем хотя во время приемки проблемы не подтвердились. Получил отчет о процессе ремонта. В итоге в первый же рабочий день приступили к ремонту. На третий день ремонта сообщили, что можно приезжать и забирать телефон. Очень быстро и ни каких проблем. Спасибо. Буду советовать всем знакомым.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <section class="panel" id="vacancy">
+     <div class="container d-flex h-100 flex-column align-items-center justify-content-center">
+         <h1 class="section-title text-upper" style="color: #fff;">Вакансии</h1>
+
+         <p class="text-upper text-center mt-5">На данный момент у нас нет свободных вакансий, но вы можете оставить
+             свое резюме по адресу: service@2droida.ru</p>
+     </div>
+ </section>
+
+ <section class="panel" id="sub">
+     <div class="container h-100 d-flex justify-content-center align-items-center flex-column">
+         <h1 class="section-title text-upper" style="color: #fff">Заказ обратного звонка</h1>
+         <form class="w-50 mt-5 d-flex flex-column align-items-center">
+             <input type="text" class="form-control" placeholder="Имя">
+             <input type="text" class="form-control mt-3" placeholder="Телефон">
+             <button class="btn btn-white-big text-upper mt-5"><a href="#about">Позвонить мне</a></button>
+         </form>
+     </div>
+ </section>
+
+ <footer class="panel">
+     <div class="h-100 d-flex justify-content-between" style="width: 80vw; margin: 0 auto;">
+         <div class="footer-name">
+             <div class="name">
+                 <div class="item d-flex align-items-center mb-2">
+                     <p>Наименование: ООО «С групп»</p>
+                 </div>
+                 <div class="item d-flex align-items-center mb-2">
+                     <p>Юридический адрес: 634057, г. Новосибирск, ул. 79 Гвардейской дивизии, 7-179</p>
+                 </div>
+                 <div class="item d-flex align-items-center mb-2">
+                     <p>ИНН: 7017417869</p>
+                 </div>
+                 <div class="item d-flex align-items-center mb-2">
+                     <p>КПП: 762701001</p>
+                 </div>
+             </div>
+         </div>
+         <div class="h-100 d-flex align-items-center">
+             <ul class="nav">
+                 <li class="text-upper"><a onclick="smoothScroll('#about')" href="#">О нас</a></li>
+                 <li class="text-upper"><a onclick="smoothScroll('#price')" href="#">Цены</a></li>
+                 <li class="text-upper"><a onclick="smoothScroll('#sub')" href="#">Контакты</a></li>
+                 <li class="text-upper"><a onclick="smoothScroll('#vacancy')" href="#">Вакансии</a></li>
+             </ul>
+         </div>
+         <div class="d-flex justify-content-evenly flex-column h-100">
+             <div class="contact">
+                 <div class="item d-flex justify-content-center align-items-center mt-4 mb-4">
+                     <a href="whatsapp://send?phone=7903950645" target="_blank">
+                         <img src="assets/img/icons/whatsapp.png" alt="logo"></a>
+                     <a href="https://vk.com/droid" target="_blank">
+                         <img src="assets/img/icons/vk.png" alt="logo"></a>
+                 </div>
+                 <div class="item d-flex justify-content-center align-items-center mb-2">
+                     <p class="text-upper">Тел.: 8(3822)94-06-06</p>
+                 </div>
+                 <div class="item d-flex justify-content-center align-items-center mb-2">
+                     <p class="text-upper">Режим работы: Ежедневно, 10:00 — 20:00</p>
+                 </div>
+                 <div class="item d-flex justify-content-center align-items-center mb-2">
+                     <p class="text-upper">Email: service@2droida.ru</p>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </footer>
+
+ <a class="btn btn-primary btn-sub" onclick="smoothScroll('#sub')" href="#">
+     <img src="assets/img/icons/phone.png" alt="go sub" ></a>
+
+</body>
+</html>
