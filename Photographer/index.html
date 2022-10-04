@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Photographer</title>
+</head>
+
+<body>
+    <section class="panel" id="first-page">
+        <header class="d-flex justify-content-center align-items-end container">
+        </header>
+
+        <div class="container d-flex flex-column justify-content-center content" style="margin-top: 75px;">
+
+            <h1 class="site-name text-upper" style="margin-top: 40px;">Фотограф</h1>
+            <h2 class="text-upper" style="margin-top: 5px;">для вас</h2>
+            <p class="text-upper" style="margin-top: 50px;">Вместе мы создаем искусство</p>
+        </div>
+        <a class="btn btn-about-us text-upper" style="margin-top: 50px; margin-left: 100px;" href="#sub">записаться
+        </a>
+        <a class="btn btn-white-big text-upper" style="margin-top: 50px; margin-left: 50px;" href="#galery">
+            галерея</a>
+
+    </section>
+
+    <section class="panel" id="about-us">
+        <div>
+            <h1 class="section-title text-upper" style="color: #f1f0de;">о нас</h1>
+        </div>
+        <div class="container d-flex h-50 align-items-center justify-content-center" style="margin-top: 100px">
+            <div class="container1">
+                <p class="text-upper text-center mt-5 mb-5">Повседневная практика показывает, <br> что новая модель
+                    организационной <br>деятельности играет важную роль <br>в формировании новых предложений.
+                    <br>Повседневная практика показывает, что <br>укрепление и развитие структуры <br>представляет собой
+                    интересный <br>эксперимент проверки существенных <br>финансовых и административных условий.
+                </p>
+            </div>
+            <div class="container2">
+                <img src="assets/img/useful_info/photographer_us.png" alt="photographer">
+            </div>
+        </div>
+    </section>
+
+    <section class="panel" id="advantages">
+        <h1 class="section-title text-upper" style="color: #120e0c; margin-top: 100px">Почему мы?</h1>
+        <div class="container content d-flex justify-content-center align-items-center mt-5">
+            <div class="content w-75 d-flex justify-content-around align-items-center" style="height: 250px;"
+                id="advantage-container">
+                <div class="item">
+                    <img src="assets/img/advantages/icon1.png" alt="advantages">
+                    <p class="text-upper">КАЧЕСТВО</p>
+                </div>
+                <div class="item">
+                    <img src="assets/img/advantages/icon2.png" alt="advantages">
+                    <p class="text-upper">ПОДДЕРЖКА</p>
+                </div>
+                <div class="item">
+                    <img src="assets/img/advantages/icon3.png" alt="advantages">
+                    <p class="text-upper">ОПЫТ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="panel" id="we">
+        <h1 class="section-title text-upper" style="color: #f1f0de; margin-top: 50px">Посмотрите на нас за
+            работой</h1>
+        <div class="container d-flex h-50 align-items-center justify-content-center" style="margin-top: 100px">
+            <div class="container2">
+                <img src="assets/img/photographer/at-work1.jpg" alt="photographer">
+            </div>
+            <div class="container2">
+                <img src="assets/img/photographer/at_work2.jpg" alt="photographer">
+            </div>
+        </div>
+    </section>
+
+    <section class="panel" id="galery">
+        <h1 class="section-title text-upper" style="color: #120e0c">Галерея</h1>
+        <div class="container content d-flex justify-content-center align-items-center mt-5">
+            <div class="content d-flex align-items-end justify-content-center" style="height: 500px; width:598px;
+            border: solid #120e0c 2px" id="galery-container">
+                <input type="radio" name="photo-trigger" id="ph1">
+                <label for="ph1" class="photo-label" id="ph1-tab"></label>
+                <div class="item" id="ph1-container">
+                    <img src="assets/img/portfolio/cups.jpg" alt="photo">
+                </div>
+
+                <input type="radio" name="photo-trigger" id="ph2" checked>
+                <label for="ph2" class="photo-label" id="ph2-tab"></label>
+                <div class="item" id="ph2-container">
+                    <img src="assets/img/portfolio/firework.jpg" alt="photo">
+                </div>
+
+
+                <input type="radio" name="photo-trigger" id="ph3">
+                <label for="ph3" class="photo-label" id="ph3-tab"></label>
+                <div class="item" id="ph3-container">
+                    <img src="assets/img/portfolio/lamps.jpg" alt="photo">
+                </div>
+
+
+                <input type="radio" name="photo-trigger" id="ph4">
+                <label for="ph4" class="photo-label" id="ph4-tab"></label>
+                <div class="item" id="ph4-container">
+                    <img src="assets/img/portfolio/sunset.jpg" alt="photo">
+                </div>
+
+                <input type="radio" name="photo-trigger" id="ph5">
+                <label for="ph5" class="photo-label" id="ph5-tab"></label>
+                <div class="item" id="ph5-container">
+                    <img src="assets/img/portfolio/woman_eyes.jpg" alt="photo">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="panel" id="sub">
+        <div class="container h-100 d-flex justify-content-center align-items-center flex-column">
+            <h1 class="section-title text-upper" style="color: #ffe432">ЗАБРОНИРОВАТЬ ДАТУ</h1>
+            <form class="w-50 mt-5 d-flex flex-column align-items-center">
+                <input type="text" class="form-control" placeholder="ВВЕДИТЕ ФИО">
+                <input type="text" class="form-control mt-3" placeholder="ВЫБЕРИТЕ ДАТУ">
+                <input type="text" class="form-control mt-3" placeholder="УКАЖИТЕ ТЕЛЕФОН">
+                <button class="btn btn-white-big text-upper mt-5">Записаться</button>
+            </form>
+        </div>
+    </section>
+    <footer class="panel">
+        <div class="h-100 d-flex justify-content-center align-items-center" style="width: 80vw; margin: 0 auto;">
+
+            <div class="d-flex justify-content-center flex-column h-100">
+                <div class="contact">
+                    <div class="item d-flex justify-content-center align-items-center" style="margin-top: 50px;
+                    font-weight: bold">
+                        <p class="text-upper">+11 1111 23456</p>
+                    </div>
+                    <div class="item d-flex justify-content-center align-items-center" style="font-weight: bold">
+                        <p class="text-upper">photo@mail.com</p>
+                    </div>
+                    <div class="item d-flex justify-content-center align-items-center mb-2" style="margin-top: 50px">
+                        <p style="font-size: 12px">Pineapple Loft,22 pink street <br>New York</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a class="btn btn-primary btn-up" href="#first-page">
+        <img src="assets/img/go_up.png" alt="go up"></a>
+</body>
+
+</html>
