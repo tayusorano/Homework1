@@ -1,0 +1,17 @@
+* {
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+    @include laptop {
+        width: 90%;
+    }
+}
+
+button {
+    cursor: pointer;
+}

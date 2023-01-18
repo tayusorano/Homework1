@@ -1,0 +1,123 @@
+.header {
+    padding: 17px 0px;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__list {
+        display: flex;
+        
+        @include laptop {
+            display: none;
+        }
+    }
+
+    &__link{
+        position: relative;
+        margin-right: 30px;
+        font-family: 'Roboto';
+    }
+
+    &__link:hover {
+        color: #EF7F04;
+        cursor: pointer;
+    }
+
+    &__link:hover::before {
+        display: block;
+        content: '';
+        position: absolute;
+        bottom: 53px;
+        height: 4px;
+        width: 100%;
+        background-color: #EF7F04;
+    }
+
+    &__button{
+        display: inline-flex;
+        align-items: center;
+        margin-right: 14px;
+        border-radius: 3px;
+        padding: 10px 20px;
+        border: none;
+        font-size: 13px;
+        color: #fff;
+
+        &__icon {
+            margin-right: 12px;
+        }
+    }
+
+    &__icons {
+        display: flex;
+        align-items: center;
+    }
+
+    &__menu {
+        display: none;
+        width: 56px;
+
+        @include laptop {
+            display: block;
+        }
+    }
+
+    &__menu-line {
+        position: relative;
+        display: block;
+        height: 7px;
+        width: 100%;
+        background-color: #EF7F04;
+        border-radius: 2px;
+    }
+
+    &__menu-line::after {
+        content: '';
+        position: absolute;
+        top: -14px;
+        height: 7px;
+        width: 100%;
+        background-color: #EF7F04;
+        border-radius: 2px;
+    }
+
+    &__menu-line::before {
+        content: '';
+        position: absolute;
+        bottom: -14px;
+        height: 7px;
+        width: 100%;
+        background-color: #EF7F04;
+        border-radius: 2px;
+    }
+
+    &__logo {
+        @include laptop {
+            margin-left: 44px;
+        }
+    }
+
+
+    .button-orange{
+        background-color: #EF7F04;
+        transition: 0.5s;
+    }
+
+    .button-orange:hover {
+        background-color: #3B3A63;
+        transition: 0.5s;
+    }
+
+    .button-blue{
+        background-color: #3B3A63;
+        transition: 0.5s;
+    }
+
+    .button-blue:hover {
+        background-color: #EF7F04;
+        transition: 0.5s;
+    }
+}
