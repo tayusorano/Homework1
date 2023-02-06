@@ -275,11 +275,11 @@ table {
 }
 .about__bg {
   width: 51%;
-  background: no-repeat url(/images/About-bg.svg);
+  background: no-repeat url(../images/About-bg.svg);
 }
 @media (max-width: 992px) {
   .about__bg {
-    background-image: url(/images/mobile-about-bg.svg);
+    background-image: url(../images/mobile-about-bg.svg);
     position: relative;
     right: -220px;
   }
@@ -435,12 +435,12 @@ table {
 }
 
 .first-page {
-  background-image: url(/images/firsr-page-bg.svg);
+  background-image: url(../images/firsr-page-bg.svg);
   height: 562px;
 }
 @media (max-width: 992px) {
   .first-page {
-    background-image: url(/images/mobile-bg-fp.svg);
+    background-image: url(../images/mobile-bg-fp.svg);
   }
 }
 .first-page__container {
@@ -570,7 +570,7 @@ label .custom-input:checked ~ .first-page__checkmark::after {
   left: 6px;
   width: 20px;
   height: 21px;
-  background: url(/images/check.svg) no-repeat center;
+  background: url(../images/check.svg) no-repeat center;
   background-size: cover;
 }
 

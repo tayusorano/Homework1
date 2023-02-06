@@ -30,10 +30,10 @@
 
     &__bg {
         width: 51%;
-        background: no-repeat url(/images/About-bg.svg);
+        background: no-repeat url(../images/About-bg.svg);
 
         @include laptop {
-            background-image: url(/images/mobile-about-bg.svg);
+            background-image: url(../images/mobile-about-bg.svg);
             position: relative;
             right: -220px;
         }
