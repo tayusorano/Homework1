@@ -1,0 +1,68 @@
+@media (max-width: 1200px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    .home {
+        padding: 1rem 4rem;
+    }
+    
+}
+
+@media (max-width: 991px) {
+    header {
+        left: -120%;
+    }
+
+    header.toggle {
+        left: 0%;
+    }
+
+    #menu {
+        display: block;
+    } 
+
+    body {
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .education-experience {
+        .row {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    html{
+        font-size: 50%;
+    } 
+}
+
+@media (max-width: 400px) {
+
+    header {
+        width: 100vw;
+    } 
+
+    .about {
+        &__heading {
+            margin: 0 3rem;
+        }
+        &__counter {
+            .box {
+                width: 100%;
+            }
+        }
+    }  
+
+    .contact {
+        
+        form {
+            margin: 3rem;
+        }
+    }
+    
+}

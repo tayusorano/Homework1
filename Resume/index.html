@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="user">
+            <img src="images/Photo.jpg" alt="profile photo">
+            <h3 class="user__name">Lorem ipsum</h3>
+            <p class="user__post">Developer</p>
+        </div>
+
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <section class="home" id="home">
+
+        <h3>Greeting!</h3>
+        <h1>I'm <span>Lorem ipsum</span></h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet tempore labore porro consectetur, mollitia possimus quaerat reiciendis fuga beatae consequatur? Dolor pariatur suscipit rerum exercitationem asperiores voluptas et iusto ullam!</p>
+        <a href="#about"><button class="btn">About me<i class="fas fa-user"></i></button></a>
+
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="about__heading"><span>About</span> me</h1>
+        <div class="about__row">
+            <div class="about__info">
+                <h3><span>Name : </span> Lorem ipsum</h3>
+                <h3><span>Education : </span> BMS</h3>
+                <h3><span>Qualification : </span> Developer</h3>
+                <h3><span>Language : </span> English</h3>
+                <a href="#"><button class="btn">Download CV <i class="fas fa-download"></i></button></a>
+            </div>
+
+            <div class="about__counter">
+                <div class="box">
+                    <span>7+</span>
+                    <h3>years of experience</h3>
+                </div>
+                <div class="box">
+                    <span>32+</span>
+                    <h3>happy clients</h3>
+                </div>
+                <div class="box">
+                    <span>150+ </span>
+                    <h3>projects</h3>
+                </div>
+                <div class="box">
+                    <span>14+ </span>
+                    <h3>awaards</h3>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <section class="education-experience">
+        <div class="row">
+            <div class="education" id="education">
+                <div class="ed-title">
+                    <h2>EDUCATION</h2>
+                </div>
+
+                <div class="ed-info">
+                    <div class="box">
+                        <h4>2015 - 2020</h4>
+                        <h3>University</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="box">
+                        <h4>2015 - 2020</h4>
+                        <h3>University</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="box">
+                        <h4>2015 - 2020</h4>
+                        <h3>University</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience" id="experience">
+                <div class="ed-title">
+                    <h2>EXPERIENCE</h2>
+                </div>
+
+                <div class="ed-info">
+                    <div class="box">
+                        <h4>2019</h4>
+                        <h3>UI/UX Designer</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="box">
+                        <h4>2020</h4>
+                        <h3>Developer</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="box">
+                        <h4>2021</h4>
+                        <h3>Developer</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="contact__heading"><span>Contact</span> me</h1>
+        <div class="contact__row">
+            <div class="contact__content">
+                <h3 class="contact__title">Contacts</h3>
+                <div class="contact__info">
+                    <h3><i class="fas fa-envelope"></i>developer57@mail.com</h3>
+                    <h3><i class="fas fa-phone"></i>8-888-999-34-32</h3>
+                </div>
+            </div>
+
+            <form action="">
+                <input type="text" placeholder="Name" class="box">
+                <input type="email" placeholder="E-mail" class="box">
+                <input type="text" placeholder="Project" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Message"></textarea>
+                <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+    
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

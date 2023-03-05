@@ -1,0 +1,68 @@
+.education-experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 10%;
+    padding-right: calc(10% - 30px) ;
+
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+
+    }
+}
+
+.ed-title {
+    font-size: 3rem;
+    color: var(--green);
+    padding: 0 0 2rem 3rem;
+}
+
+.ed-info {
+    padding: 0 30px;
+    border-left: 2px solid #282828;
+
+    .box {
+        position: relative;
+        padding: 2rem;
+        border: 1px solid #1a1a1a;
+        background-color: #333;
+        cursor: pointer;
+        transition: all 0.4s;
+        margin-bottom: 2rem;
+        color: #fff;
+
+        h4 {
+            position: relative;
+            color: var(--green);
+            font-size: 1.5rem;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            padding: 1rem 0 .5rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+        }
+    }
+
+    .box:hover {
+        box-shadow: 0 3px  12px 0 #666565;
+        border: 1px solid transparent;
+    }
+
+    .box::before {
+        content: '';
+        position: absolute;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        right: calc(100% + 2.3rem);
+        top: 0;
+        background-color: var(--green);
+        border: 2px solid #111;
+    }
+}
