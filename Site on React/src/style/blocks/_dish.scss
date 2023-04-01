@@ -1,0 +1,112 @@
+.dish {
+    &__page {
+        background-image: url(../../../public/assets/images/bg.svg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #161516;
+        color: #FFFFFF;
+        min-height: 100vh;
+    }
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @include laptop {
+            justify-content: space-around;
+        }
+    }
+
+    &__return {
+        padding: 0 70px;
+        width: 32px;
+        margin-top: -20px;
+        cursor: pointer;
+        transition: all .3s;
+        @include laptop {
+            padding: 0 15%;
+        }
+    }
+
+    &__return:hover {
+        cursor: pointer;
+        scale: 1.2;
+        transition: all .3s;
+    }
+
+    &__info {
+        padding: 0 70px 40px 140px;
+        display: flex;
+        gap: 15%;
+        align-items: center;
+        @include laptop {
+            flex-wrap: wrap;
+            padding: 0 70px 40px 70px;
+        }
+    }
+
+    &__img {
+        min-width: 35vw;
+    }
+    
+    &__title {
+        color: #D58C51;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 21px;
+        line-height: 36px;
+        max-width: 400px;
+        @include laptop {
+            margin-top: 10%;
+        }
+    }
+
+    &__descr {
+        line-height: 17px;
+        @include laptop{
+            font-size: 11px;
+        }
+    }
+
+    &__bottom {
+        margin-top: 35px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__price {
+        font-weight: 500;
+        font-size: 23px;
+        @include laptop{
+            font-size: 12px;
+        }
+    }
+
+    &__weight {
+        font-size: 18px;
+    }
+
+    &__basket {
+        font-size: 14px;
+        background-color: #D58C51;
+        padding: 12px 62px;
+        color: #161516;
+        border: 1px solid #161516 ;
+        transition: all .3s;
+        margin-right: 15%;
+        cursor: pointer;
+
+        @include laptop{
+            padding: 12px 30px;
+            font-size: 11px;
+        }
+    }
+
+    &__basket:hover {
+        background: none;
+        color: #D58C51;
+        border: 1px solid #D58C51;
+        cursor: pointer;
+        transition: all .3s;
+    }
+}

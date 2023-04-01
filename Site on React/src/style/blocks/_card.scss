@@ -1,0 +1,56 @@
+.card {
+    width: 312px;
+    height: 552px;
+    border: 1px solid #D58C51;
+    box-sizing: border-box;
+    padding: 40px 20px;
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+
+    &__title {
+        margin: 20px auto;
+    }
+
+    &__descr {
+        font-size: 14px;
+        font-weight: 400;
+        padding-right: 10px;
+        line-height: 17px;
+    }
+
+    &__add {
+        display: flex;
+    }
+
+    &__info {
+        display: flex;
+        position: absolute;
+        bottom: 35px;
+    }
+
+    &__button{
+        all: unset;
+    }
+
+    &__icon {
+        position: absolute;
+        bottom: 25px;
+        right: 20px;
+    }
+
+    svg {
+        transition: 0.3s;
+    }
+}
+
+.card:hover {
+    transition: 0.3s;
+    color: #D58C51;
+}
+
+.card:hover svg circle{
+    transition: 0.3s;
+    fill: #D58C51;
+    stroke: #D58C51;
+}
